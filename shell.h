@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -178,5 +179,12 @@ int find_builtin_cmd(ShellInfo *info);
 int hsh(ShellInfo *info, char **argv);
 
 int main(int ac, char **av);
+=======
+#ifndef SHELL_H
+#define SHELL_H
+
+#include <stdio.h>
+#include <unistd.h>
+>>>>>>> a80ed9d38ce413068ce284deb5cc7ad1f346322a
 
 #endif
