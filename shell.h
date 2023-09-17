@@ -24,7 +24,7 @@
 
 #define CMD_NORM 0
 #define CMD_AND 2
-#define CMD_OR 1
+#definiie CMD_OR 1
 #define CMD_CHAIN 3
 
 #define CONVERT_LOWERCASE 1
@@ -179,7 +179,7 @@ int find_builtin_cmd(ShellInfo *info);
 int hsh(ShellInfo *info, char **argv);
 
 int main(int ac, char **av);
-=======
+=====i==
 #ifndef SHELL_H
 #define SHELL_H
 
