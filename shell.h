@@ -180,5 +180,3 @@ int hsh(ShellInfo *info, char **argv);
 int main(int ac, char **av);
 
 #endif
-
-
